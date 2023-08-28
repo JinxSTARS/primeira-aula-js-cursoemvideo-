@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: antiquewhite;
+        }
+        h1{
+            color: aquamarine;
+        }
+    </style>
+    <title>js- aula 1</title>
+</head>
+<body>
+    <h1>olá, mundo!</h1>
+    <p> as tentações como voce, merecem pecadores como eu</p>
+    <!--revendo html e css-->
+    <script>
+window.alert ("olá, caro player")
+window.confirm("está gostando do site?")
+window.prompt ("qual é seu nome??") //janela q pergunta nome
+<!--se colocar 2/ ele anula, vira comentario-->
+//exemplo de carros :). VAGA-VAR A1-ATRIBUIÇÃO QUE A1 =
+// vaga a1=carro1 (= é recebe)
+//a1= carro2
+// a1=null (não recebe, tira oq está na vaga no momento)
+//<!--IDENTIFICADORES
+//PODEM COMEÇAR= LETRA, $ OU _ 
+//N PODE COMEÇAR COM NU--!!>
+
+    </script>
+</body>
+</html>
+                                                         NODE JS
+                       Welcome to Node.js v18.17.1.
+Type ".help" for more information.
+> var n2= 85
+undefined
+> var n1= 55
+undefined
+> n1+n2
+140
+
