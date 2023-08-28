@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: antiquewhite;
+        }
+        h1{
+            color: aquamarine;
+        }
+    </style>
+    <title>js- aula 1</title>
+</head>
+<body>
+    <h1>olá, mundo!</h1>
+    <p> as tentações como voce, merecem pecadores como eu</p>
+    <!--revendo html e css-->
+    <script>
+window.alert ("olá, caro player")
+window.confirm("está gostando do site?")
+window.prompt ("qual é seu nome??")
+    <!--ta, no começo é bem facil, ainda mais quando só tem 2 linhas de código haha--!>
+    </script>
+</body>
+</html>
