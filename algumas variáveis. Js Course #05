@@ -44,4 +44,9 @@ undefined
 undefined
 > n1+n2
 140
+> var n = n1+n2
+undefined
+> typeof n
+'number'
+>
 
