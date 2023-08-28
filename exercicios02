@@ -1,0 +1,61 @@
+VSCODE-------------------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: antiquewhite;
+        }
+        h1{
+            color: aquamarine;
+        }
+    </style>
+    <title>js- aula 1</title>
+</head>
+<body>
+    <h1>olá, mundo!</h1>
+    <p> as tentações como voce, merecem pecadores como eu</p>
+    <!--revendo html e css-->
+    <script>
+var n1 = window.prompt("digite um numero:")
+var n2 = window.prompt("digite outro numero:")
+var s = n1+n2
+window.alert("a soma dos valores é:" + String(s))
+// number+number para adição
+//string+string para concatenação
+
+
+    </script>
+</body>
+</html>
+
+
+NODEJS----------------------------------------------------------------------------
+
+> nome = "fernanda"
+'fernanda'
+> idade = 18
+18
+> nota = 10
+10
+> "o aluno" + "idade" +"anos tirou a nota" + "nota"
+'o alunoidadeanos tirou a notanota'
+> ´o aluno ${nome} com ${idade} tirou ${nota}
+´o aluno ${nome} com ${idade} tirou ${nota}
+
+            TALVEZ SEJA A DEFINIÇÃO QUE NÃO TENHA DADO CERTO, AMANHÃ EU REVISO
+Uncaught SyntaxError: Invalid or unexpected token
+> ´o aluno ${nome} com ${idade} tirou ${nota}´
+´o aluno ${nome} com ${idade} tirou ${nota}´
+
+
+Uncaught SyntaxError: Invalid or unexpected token
+
+DEU ERRO, MAS VIDA QUE SEGUE NÉ???
