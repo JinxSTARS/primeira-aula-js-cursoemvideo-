@@ -1,0 +1,74 @@
+anotações aula passada--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          
+
+            Data types
+number 
+infinity
+NaN
+string
+boolean
+null
+undefined
+object
+array
+function
+---conversão---
+string(n)
+n.toString()
+
+var nome= window.prompt("qual é seu nome")
+Number.parseInt(n) de um n para um inteiro
+Number.parseFloat(n) n real com virgula (ponto flutuante)
+pode se adc Number(n) se não quiser definir se é inteiro ou real
+
+--------------------------------------------------------------------------------teste 1
+ <script>
+var n1 = Number.parseInt (window.prompt("digite um numero:"))
+var n2 = Number.parseInt(window.prompt("digite outro numero:"))
+var s = n1 + n2
+window.alert('a soma dos valores é:' + s)
+// number+number para adição
+//string+string para concatenação
+
+                                     //deu certoooooooooooooooooo
+    </script>
+
+com o number
+    <script>
+var n1 = Number(window.prompt("digite um numero:"))
+var n2 = Number(window.prompt("digite outro numero:"))
+var s = n1 + n2
+window.alert('a soma dos valores é:' + s)
+
+
+                                //não deu certo, será a versão do meu vs??
+  -----------------------------------------------------------------------------------  formatação de string
+
+node-----------------------
+utilizar ´´
+                                       //deu super certo, fica até mais bonito
+<script>
+var n1 = Number(window.prompt("digite um numero:"))
+var n2 = Number(window.prompt("digite outro numero:"))
+var s = n1 + n2
+window.alert(`a soma entre ${n1} e ${n2} é igual a ${s}`)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                   //o código terminou assim
+
+
+   <h1>olá, mundo!</h1>
+    <p> as tentações como voce, merecem pecadores como eu</p>
+    <!--revendo html e css-->
+    <script>
+var n1 = window.prompt("digite um numero:")
+var n2 = window.prompt("digite outro numero:")
+var s = n1+n2
+window.alert("a soma dos valores é:" + String(s))
+// number+number para adição
+//string+string para concatenação
+
+
+    </script>
+</body>
+</html>
