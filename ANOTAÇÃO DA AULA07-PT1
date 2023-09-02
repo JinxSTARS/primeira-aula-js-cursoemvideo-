@@ -1,0 +1,53 @@
+ANOTAÇÕES DA PRIMEIRA PARTE DA AULA
+
+
+         operadores js
+aritméticos
+atribuição
+logicos
+relacionais
+ternário
+vamos focar em 2
+
+operadores aritméticos
++ - * / % **
+-----------------------------------------------------------
+ordem de precedencia
+()
+**
+*/%   <----
++-
+
+node----------------------------------------------
+
+Welcome to Node.js v18.17.1.
+Type ".help" for more information.
+> var a = 5+ 3
+undefined
+> var b = a % 5
+undefined
+> var c = *b** 2
+var c = *b** 2
+        ^
+
+Uncaught SyntaxError: Unexpected token '*'
+> var c= 5* b**2
+undefined
+> var d = 10 -a /2
+undefined
+> var e = 6*2/d
+undefined
+> var f = b% e +4/e
+undefined
+
+------------------------------------------------------
+AUTO- ATRIBUIÇÕES
+var n= 3
+n=n+4
+n=n-5
+ELE DEIXA DE VALER OQ ERA E PASSA SER OQ DA NA CONTA
+-----------------------------------------------------
+SIMPLIFICANDO
+n +=4
+n -=5
+n*= 4
